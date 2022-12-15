@@ -7,12 +7,11 @@
  */
 int _isupper(int c)
 {
-	if (c >= 65 && c <= 90)
-	{
-		return (1);
-	}
-	else
-	{
-		return (0);
-	}
+	char c;
+
+	c = 'X';
+	printf("%c: %d\n", c, _isupper(c));
+	c = 'd';
+	printf("%c: %d\n", c, _isupper(c));
+	return (0);
 }

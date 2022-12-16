@@ -7,28 +7,32 @@
  */
 int main(void)
 {
-	int n;
+	int y;
 
-	n = 1;
-	printf("%d", n);
-	for (n = 2; n <= 100; n++)
+	y = 1;
+
+	for (y = 1; y <= 100; y++)
 	{
-		if ((n % 3 == 0) && (n % 5 == 0))
+		if ((y % 3 == 0) && (y % 5 == 0))
 		{
 			printf(" FizzBuzz");
 
 		}
-		else if (n % 3 == 0)
+		else if (y % 3 == 0)
 		{
 			printf(" Fizz");
 		}
-		else if (n % 5 == 0)
+		else if (y % 5 == 0)
 		{
 			printf(" Buzz");
 		}
 		else
 		{
 			printf(" %d", n);
+		}
+		if (y != 100)
+		{
+			printf(" ");
 		}
 	}
 	printf("\n");

@@ -3,7 +3,7 @@
 
 /**
  * main - prints the numbers from 1 to 100
- * Return: 0
+ * Return: Always 0.
  */
 int main(void)
 {
@@ -13,27 +13,27 @@ int main(void)
 
 	for (y = 1; y <= 100; y++)
 	{
-		if ((y % 3 == 0) && (y % 5 == 0))
-		{
-			printf(" FizzBuzz");
+	if ((y % 3 == 0) && (y % 5 == 0))
+	{
+		printf(" FizzBuzz");
 
-		}
-		else if (y % 3 == 0)
-		{
-			printf(" Fizz");
-		}
-		else if (y % 5 == 0)
-		{
-			printf(" Buzz");
-		}
-		else
-		{
-			printf(" %d", n);
-		}
-		if (y != 100)
-		{
-			printf(" ");
-		}
+	}
+	else if (y % 3 == 0)
+	{
+		printf(" Fizz");
+	}
+	else if (y % 5 == 0)
+	{
+		printf(" Buzz");
+	}
+	else
+	{
+		printf(" %d", n);
+	}
+	if (y != 100)
+	{
+		printf(" ");
+	}
 	}
 	printf("\n");
 	return (0);

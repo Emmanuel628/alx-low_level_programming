@@ -6,10 +6,9 @@
  * Return: Always 0.
  */
 int main(void)
+
 {
 	int y;
-
-	y = 1;
 
 	for (y = 1; y <= 100; y++)
 	{

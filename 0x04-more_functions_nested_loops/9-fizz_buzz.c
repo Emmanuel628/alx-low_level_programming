@@ -15,20 +15,20 @@ int main(void)
 	{
 	if ((y % 3 == 0) && (y % 5 == 0))
 	{
-		printf(" FizzBuzz");
+		printf("FizzBuzz");
 
 	}
 	else if (y % 3 == 0)
 	{
-		printf(" Fizz");
+		printf("Fizz");
 	}
 	else if (y % 5 == 0)
 	{
-		printf(" Buzz");
+		printf("Buzz");
 	}
 	else
 	{
-		printf(" %d", n);
+		printf(" %d", y);
 	}
 	if (y != 100)
 	{
